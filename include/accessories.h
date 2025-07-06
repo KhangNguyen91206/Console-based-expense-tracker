@@ -31,7 +31,7 @@ void wait();
 int validDateCheck (int day, int month, int year);
 int safeIntCheck(const char *message);
 int dateEncode(int day, int month, int year);
-int dateComp(const void *a, const void *b);
+int dateComp(Expense, Expense);
 void dateSort(Expense expenses[MAX_EXPENSE], int num, int (*compareDates)(Expense, Expense));
 
 //Default-dates functions
